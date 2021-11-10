@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AAEA,AAAA,IAAI,CAAC;EAED,MAAM,EAAE,IAAI;CAEf",
+    "sources": [
+        "styles.scss",
+        "_navbar.scss"
+    ],
+    "names": [],
+    "file": "styles.css"
+}
