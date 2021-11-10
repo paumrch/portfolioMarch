@@ -1,7 +1,13 @@
 @import './navbar';
+@import './fonts';
+
+html {
+    box-sizing: border-box;
+}
 
 body {
     
+    width: 100%;
     margin: auto;
 
 }
