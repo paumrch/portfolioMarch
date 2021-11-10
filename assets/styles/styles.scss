@@ -1,5 +1,6 @@
 @import './navbar';
 @import './fonts';
+@import './first';
 
 html {
     box-sizing: border-box;
@@ -8,6 +9,7 @@ html {
 body {
     
     width: 100%;
-    margin: auto;
+    margin-top: 3%;
+    margin-left: 3%;
 
 }

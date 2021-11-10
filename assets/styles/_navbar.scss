@@ -4,6 +4,10 @@ nav {
   justify-content: space-between;
   align-items: center;
 
+  .logo {
+    display: inline-flex;
+  }
+
   ul {
     list-style: none;
     display: flex;
@@ -12,12 +16,12 @@ nav {
   li {
     display: inline-block;
     text-decoration: none;
-    margin-right: 2vw;
+    margin-right: 5vw;
     color: white;
   }
 
   img {
-    min-width: 6rem;
+    min-width: 100px;
     width: 8vw;
     vertical-align: middle;
   }
