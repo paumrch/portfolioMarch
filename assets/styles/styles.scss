@@ -1,6 +1,7 @@
 @import './navbar';
 @import './fonts';
 @import './first';
+@import './second';
 
 html {
     box-sizing: border-box;
@@ -8,7 +9,10 @@ html {
 
 body {
     
+    display: block;
     width: 100%;
     margin: auto;
-
+    color: whitesmoke;
+    background-color: #111fff;
+    
 }

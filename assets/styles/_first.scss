@@ -1,12 +1,8 @@
-main {
-  display: flex;
-  width: 100%;
-  justify-content: center;
-  background-color: cornsilk;
+  .first {
 
-  .first-section {
-    display: inline-flex;
-    align-items: center;
+    display: flex;
+    width: 100%;
+    padding-bottom: 5vh;
 
     .avatar {
       display: inline-flex;
@@ -14,55 +10,6 @@ main {
 
       img {
         width: 40vw;
-        animation: fadeIn 2.5s;
-        -webkit-animation: fadeIn 2.5s;
-        -moz-animation: fadeIn 2.5s;
-        -o-animation: fadeIn 2.5s;
-        -ms-animation: fadeIn 2.5s;
-        @keyframes fadeIn {
-          0% {
-            opacity: 0;
-          }
-          100% {
-            opacity: 1;
-          }
-        }
-
-        @-moz-keyframes fadeIn {
-          0% {
-            opacity: 0;
-          }
-          100% {
-            opacity: 1;
-          }
-        }
-
-        @-webkit-keyframes fadeIn {
-          0% {
-            opacity: 0;
-          }
-          100% {
-            opacity: 1;
-          }
-        }
-      }
-
-      @-o-keyframes fadeIn {
-        0% {
-          opacity: 0;
-        }
-        100% {
-          opacity: 1;
-        }
-      }
-
-      @-ms-keyframes fadeIn {
-        0% {
-          opacity: 0;
-        }
-        100% {
-          opacity: 1;
-        }
       }
     }
 
@@ -74,4 +21,3 @@ main {
       }
     }
   }
-}
