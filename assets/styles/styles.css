@@ -1,6 +1,6 @@
 nav {
   width: 100%;
-  margin-top: 2vh;
+  padding-top: 2vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -10,6 +10,7 @@ nav {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  background-color: cornsilk;
 }
 
 nav .logo {
@@ -66,9 +67,11 @@ main {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  width: 100%;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  background-color: cornsilk;
 }
 
 main .first-section {
@@ -80,12 +83,44 @@ main .first-section {
           align-items: center;
 }
 
+main .first-section .avatar {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
 main .first-section .avatar img {
-  width: 25vw;
+  width: 40vw;
+  animation: fadeIn 2.5s;
+  -webkit-animation: fadeIn 2.5s;
+  -moz-animation: fadeIn 2.5s;
+  -o-animation: fadeIn 2.5s;
+  -ms-animation: fadeIn 2.5s;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 main .first-section h1 {
-  font-size: 6vw;
+  font-size: 9vw;
 }
 
 main .first-section h1 span {
