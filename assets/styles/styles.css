@@ -1,5 +1,6 @@
 nav {
   width: 100%;
+  margin-top: 2vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -15,6 +16,7 @@ nav .logo {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
+  margin-left: 3vw;
 }
 
 nav ul {
@@ -27,13 +29,12 @@ nav ul {
 nav li {
   display: inline-block;
   text-decoration: none;
-  margin-right: 5vw;
+  margin-right: 3rem;
   color: white;
 }
 
 nav img {
-  min-width: 100px;
-  width: 8vw;
+  width: 100px;
   vertical-align: middle;
 }
 
@@ -61,8 +62,30 @@ body a {
   color: #333;
 }
 
+main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+main .first-section {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main .first-section .avatar img {
+  width: 25vw;
+}
+
 main .first-section h1 {
-  font-size: 6rem;
+  font-size: 6vw;
 }
 
 main .first-section h1 span {
@@ -76,7 +99,6 @@ html {
 
 body {
   width: 100%;
-  margin-top: 3%;
-  margin-left: 3%;
+  margin: auto;
 }
 /*# sourceMappingURL=styles.css.map */

@@ -1,7 +1,27 @@
 main {
+
+    display: flex;
+    
+    justify-content: center;
+
   .first-section {
+
+    display: inline-flex;
+    align-items: center;
+    
+
+    .avatar {
+        
+        img {
+            width: 25vw;
+        }
+        
+    }
+    
     h1 {
-      font-size: 6rem;
+
+      font-size: 6vw;
+
       span {
           font-weight: 300;
       }
