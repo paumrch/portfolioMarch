@@ -122,15 +122,15 @@ body a {
 }
 
 .third {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   width: 100%;
 }
 
 .third .mySkills {
   display: block;
   margin: 0 3vw 0 3vw;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .third .mySkills h2 {
@@ -147,8 +147,44 @@ body a {
   text-align: justify;
 }
 
+.third .mySkills .skillsFlex {
+  margin: 3vh 0 3vh 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  gap: 25px;
+}
+
 .third .mySkills .skillsFlex .skillsLogo {
-  width: 250px;
+  background-color: white;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 2vh 0 2vh 0;
+  -webkit-box-shadow: 11px 5px 15px -3px rgba(0, 0, 0, 0.3);
+          box-shadow: 11px 5px 15px -3px rgba(0, 0, 0, 0.3);
+  width: 15rem;
+  border-radius: 25px;
+}
+
+.third .mySkills .skillsFlex .skillsLogo img {
+  height: 10vh;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 html {
