@@ -17,3 +17,26 @@ body {
     background-color: #111fff;
     
 }
+
+footer {
+
+    margin-top: 5vh;
+    width: 100%;
+    padding-top: 3vh;
+    height: 4vh;
+    vertical-align: middle;
+    align-items: center;
+    color: #111fff;
+    background-color: white;
+    border-width: 1px;
+    p {
+        margin: 0 0 0 2vw;
+        a {
+            color: #111fff;
+            &:hover {
+                text-decoration: underline;
+            }
+            
+        }
+    }
+  }

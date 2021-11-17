@@ -50,11 +50,15 @@
           height: 10vh;
           display: inline-flex;
           align-items: center;
+
         }
          
-        width: 15rem;
+        width: 10rem;
         border-radius: 25px;
         
+        .noactive {
+          filter: grayscale(100%);
+        }
 
           
       }

@@ -173,7 +173,7 @@ body a {
   padding: 2vh 0 2vh 0;
   -webkit-box-shadow: 11px 5px 15px -3px rgba(0, 0, 0, 0.3);
           box-shadow: 11px 5px 15px -3px rgba(0, 0, 0, 0.3);
-  width: 15rem;
+  width: 10rem;
   border-radius: 25px;
 }
 
@@ -187,6 +187,11 @@ body a {
           align-items: center;
 }
 
+.third .mySkills .skillsFlex .skillsLogo .noactive {
+  -webkit-filter: grayscale(100%);
+          filter: grayscale(100%);
+}
+
 html {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -198,5 +203,31 @@ body {
   margin: auto;
   color: whitesmoke;
   background-color: #111fff;
+}
+
+footer {
+  margin-top: 5vh;
+  width: 100%;
+  padding-top: 3vh;
+  height: 4vh;
+  vertical-align: middle;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #111fff;
+  background-color: white;
+  border-width: 1px;
+}
+
+footer p {
+  margin: 0 0 0 2vw;
+}
+
+footer p a {
+  color: #111fff;
+}
+
+footer p a:hover {
+  text-decoration: underline;
 }
 /*# sourceMappingURL=styles.css.map */
