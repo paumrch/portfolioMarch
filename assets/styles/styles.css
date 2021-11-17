@@ -104,7 +104,7 @@ body a {
 
 .second .aboutMe {
   display: block;
-  margin-left: 3vw;
+  margin: 0 3vw 0 3vw;
 }
 
 .second .aboutMe h2 {
@@ -113,6 +113,12 @@ body a {
   background-size: 100%;
   background-repeat: no-repeat;
   display: inline;
+}
+
+.second .aboutMe p {
+  font-size: 1rem;
+  font-weight: 400;
+  text-align: justify;
 }
 
 html {
