@@ -99,7 +99,7 @@ body a {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  width: 100%;
+  margin: 0 20vw 0 20vw;
 }
 
 .second .aboutMe {
@@ -122,7 +122,7 @@ body a {
 }
 
 .third {
-  width: 100%;
+  margin: 0 20vw 0 20vw;
 }
 
 .third .mySkills {
@@ -190,6 +190,16 @@ body a {
 .third .mySkills .skillsFlex .skillsLogo .noactive {
   -webkit-filter: grayscale(100%);
           filter: grayscale(100%);
+}
+
+.rotate2 {
+  -webkit-transform: rotate(2deg);
+          transform: rotate(2deg);
+}
+
+.rotate-2 {
+  -webkit-transform: rotate(-2deg);
+          transform: rotate(-2deg);
 }
 
 html {
