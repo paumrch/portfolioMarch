@@ -134,15 +134,14 @@ body .heading {
   text-align: justify;
 }
 
-.third .mySkills {
-  display: block;
+.skills {
   margin: 0 20vw 0 20vw;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
 }
 
-.third .mySkills h2 {
+.skills h2 {
   font-size: 6vw;
   background-image: linear-gradient(transparent calc(65% - 5px), #000cc4 5px);
   background-size: 100%;
@@ -150,13 +149,13 @@ body .heading {
   display: inline;
 }
 
-.third .mySkills p {
+.skills p {
   font-size: 1rem;
   font-weight: 400;
   text-align: justify;
 }
 
-.third .mySkills .skillsFlex {
+.skills .skillsFlex {
   margin: 3vh 0 3vh 0;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -171,7 +170,7 @@ body .heading {
   gap: 25px;
 }
 
-.third .mySkills .skillsFlex .skillsLogo {
+.skills .skillsFlex .skillsLogo {
   background-color: white;
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
@@ -184,7 +183,7 @@ body .heading {
   border-radius: 20px;
 }
 
-.third .mySkills .skillsFlex .skillsLogo img {
+.skills .skillsFlex .skillsLogo img {
   height: 6vh;
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
@@ -194,12 +193,12 @@ body .heading {
           align-items: center;
 }
 
-.third .mySkills .skillsFlex .skillsLogo .noactive {
+.skills .skillsFlex .skillsLogo .noactive {
   -webkit-filter: grayscale(100%);
           filter: grayscale(100%);
 }
 
-.third button {
+.skills button {
   padding: 1rem;
   background-color: transparent;
   border: solid white;
@@ -236,14 +235,16 @@ body .heading {
       -ms-flex-pack: start;
           justify-content: start;
   gap: 25px;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 .work .experience .experienceCards .card {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   background-color: rgba(255, 255, 255, 0.3);
-  width: 30vw;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -252,6 +253,7 @@ body .heading {
       -ms-flex-flow: row wrap;
           flex-flow: row wrap;
   padding: 2vh 2vw 2vh 2vw;
+  margin: 1vh 0 1vh 0;
   border-radius: 20px;
 }
 
@@ -286,6 +288,16 @@ body .heading {
   background-color: transparent;
   border: solid white;
   border-radius: 5px;
+}
+
+.rotate1 {
+  -webkit-transform: rotate(1deg);
+          transform: rotate(1deg);
+}
+
+.rotate-1 {
+  -webkit-transform: rotate(-1deg);
+          transform: rotate(-1deg);
 }
 
 .rotate2 {
