@@ -1,5 +1,5 @@
 nav {
-  width: 100%;
+
   padding-top: 2vh;
   display: flex;
   justify-content: space-between;
@@ -16,9 +16,9 @@ nav {
   }
 
   li {
-    display: inline-block;
+    display: inline-flex;
     text-decoration: none;
-    margin-right: 3rem;
+    margin-right: 3vw;
     color: whitesmoke;
     a {
       color: whitesmoke;
