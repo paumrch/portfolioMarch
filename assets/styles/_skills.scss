@@ -25,7 +25,6 @@
     display: flex;
     flex-flow: row wrap;
     justify-content: start;
-
     gap: 25px;
 
     .skillsLogo {
@@ -38,10 +37,9 @@
         height: 6vh;
         display: inline-flex;
         align-items: center;
+        margin: 1vh 2vw 1vh 2vw;
       }
-
-      width: 6rem;
-      border-radius: 20px;
+      border-radius: 10px;
 
       .noactive {
         filter: grayscale(100%);
