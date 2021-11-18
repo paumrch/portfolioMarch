@@ -20,27 +20,38 @@
     }
 
     p {
-      font-size: 1rem;
+      font-size: .85rem;
       font-weight: 400;
-      text-align: justify;
+      
     }
 
-    .skillsFlex {
+    .experienceCards {
       margin: 3vh 0 3vh 0;
       display: flex;
-      flex-flow: row wrap;
       justify-content: start;
-      
       gap: 25px;
-     
 
+      .card {
 
-      .skillsLogo {
-
-        background-color: white;
-        display: inline-flex;
+        display: flex;
+        background-color: rgba(255, 255, 255, 0.3);
+        width: 30vw;
         justify-content: center;
-        padding: 2vh 1vw 2vh 1vw;
+        flex-flow: row wrap;
+        padding: 2vh 2vw 2vh 2vw;
+
+        .cardTitle {
+          display: inline-flex;
+          gap: 5px;
+        }
+
+        .cardText {
+          
+          p {
+            text-align: center !important;
+          }
+         
+        }
         
         img {
          
@@ -50,7 +61,6 @@
           
         }
          
-        width: 6rem;
         border-radius: 20px;
         
         .noactive {
