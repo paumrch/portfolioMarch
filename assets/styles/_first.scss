@@ -2,8 +2,11 @@
 
     display: flex;
     width: 100%;
-    padding-bottom: 5vh;
-    background-color: whitesmoke;
+
+    color: whitesmoke;
+    align-items: center;
+    justify-content: center;
+
 
 
     .avatar {
@@ -11,13 +14,14 @@
       align-items: center;
 
       img {
-        width: 40vw;
+        width: 60vw;
+        margin-left: -15vw;
       }
     }
 
     h1 {
       font-size: 9vw;
-      color: #111fff;
+      margin-left: -15vw;
 
       span {
         font-weight: 300;

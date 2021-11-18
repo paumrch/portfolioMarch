@@ -2,7 +2,7 @@
 
   .mySkills {
     display: block;
-    margin: 0 3vw 0 3vw;
+    margin: 0 20vw 0 20vw;
     justify-content: space-between;
 
     h2 {
@@ -40,18 +40,18 @@
         background-color: white;
         display: inline-flex;
         justify-content: center;
-        padding: 2vh 0 2vh 0;
+        padding: 2vh 1vw 2vh 1vw;
         
         img {
          
-          height: 10vh;
+          height: 6vh;
           display: inline-flex;
           align-items: center;
-
+          
         }
          
-        width: 10rem;
-        border-radius: 25px;
+        width: 6rem;
+        border-radius: 20px;
         
         .noactive {
           filter: grayscale(100%);
