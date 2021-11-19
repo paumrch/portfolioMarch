@@ -40,9 +40,14 @@
         flex-flow: row wrap;
         padding: 2vh 2vw 2vh 2vw;
         margin: 1vh 0 1vh 0;
+        max-width: 200px;
         .cardTitle {
           display: inline-flex;
-          gap: 5px;
+          flex-flow: row wrap;
+          gap: 10px;
+          h4 {
+            font-size: 0.75rem;
+          }
         }
 
         .cardText {
@@ -58,6 +63,7 @@
           height: 6vh;
           display: inline-flex;
           align-items: center;
+          border-radius: 10px;
           
         }
          

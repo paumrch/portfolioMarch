@@ -254,6 +254,7 @@ body .heading {
           flex-flow: row wrap;
   padding: 2vh 2vw 2vh 2vw;
   margin: 1vh 0 1vh 0;
+  max-width: 200px;
   border-radius: 20px;
 }
 
@@ -261,7 +262,15 @@ body .heading {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
-  gap: 5px;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  gap: 10px;
+}
+
+.work .experience .experienceCards .card .cardTitle h4 {
+  font-size: 0.75rem;
 }
 
 .work .experience .experienceCards .card .cardText p  {
@@ -276,6 +285,7 @@ body .heading {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  border-radius: 10px;
 }
 
 .work .experience .experienceCards .card .noactive {
